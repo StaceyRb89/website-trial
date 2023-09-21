@@ -2,6 +2,49 @@
     padding: 0;
     margin: 0;
 }
+
+/* front page */
+.hero {
+    position: relative;
+    height: 100vh; /* 100% of viewport height */
+    overflow: hidden; /* Hide any content that overflows the hero section */
+}
+.hero img {
+    width: 100%; /* Full width of the parent container */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both vertically and horizontally */
+    text-align: center;
+    color: #fff; /* Text color */
+}
+
+.navbar-text {
+    font-size: small;
+}
+
+/* gallery */
+.photo-slider img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.carousel-image {
+    width: 100%;
+    /* height: 550px; */
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* welding page */
 .gallery {
     padding: 10px;
     max-width: 1100px;
@@ -9,28 +52,25 @@
     background: #f2f2f2;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: 250px;
     grid-auto-flow: dense;
 }
+
 .gallery div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-#bookings img {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    max-width: 100%;
-    /* max-height: 550px; */
+
+
+/* .carousel-item {
     padding: 10px;
-    line-height: 1em; 
-} 
-.navbar-text {
-    font-size: small;
-}
-.image-container img {
-    max-width: 100%;
-    height: auto;
-}
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background: #f2f2f2;
+    position: relative;
+object-fit: contain;
+} */
+
