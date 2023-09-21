@@ -6,23 +6,34 @@
 /* front page */
 .hero {
     position: relative;
-    height: 100vh; /* 100% of viewport height */
-    overflow: hidden; /* Hide any content that overflows the hero section */
+    background-image: url('assets/images/sbpig.jpg');
+    background-size: cover; /* Ensure the image covers the entire hero section */
+    height: 100vh; /* Make the hero section take up the full viewport height */
+    color: #fff; /* Text color on the hero image */
+    text-align: center; /* Center text horizontally */
+    display: flex; /* Center content vertically */
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
 }
-.hero img {
-    width: 100%; /* Full width of the parent container */
-    height: auto; /* Maintain the aspect ratio */
-    object-fit: cover; /* Ensure the image covers the entire container */
+
+ .hero img {
+    position: absolute;
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
 }
 
 .hero-content {
     position: absolute;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Center both vertically and horizontally */
+    margin-top: 50%;
+    margin-left: 45%;
+    transform: translate(-50%, -50%); 
     text-align: center;
-    color: #fff; /* Text color */
-}
+    color: #fff;  
+} 
+
+
 
 .navbar-text {
     font-size: small;
