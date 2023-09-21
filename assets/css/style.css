@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+.navbar {
+    position: relative;
+    z-index: 2;
+}
+
 /* front page */
 /* .hero {
     position: relative;
@@ -18,6 +23,7 @@
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 
@@ -33,6 +39,7 @@
     width: 100%;
     max-width: 600px; 
     padding: 20px; 
+    z-index: 2;
     /* box-sizing: border-box;  */
 }
 
@@ -101,13 +108,13 @@ object-fit: contain;
     grid-auto-flow: dense;
 }
 .topics div img {
-    width: 75%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-content: center;
+    align-content: center; */
 }
 #heading1 {
     background: rgb(230, 230, 208);
