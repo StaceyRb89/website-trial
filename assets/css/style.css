@@ -4,34 +4,41 @@
 }
 
 /* front page */
-.hero {
+/* .hero {
     position: relative;
     background-image: url('assets/images/sbpig.jpg');
-    background-size: cover; /* Ensure the image covers the entire hero section */
-    height: 100vh; /* Make the hero section take up the full viewport height */
-    color: #fff; /* Text color on the hero image */
-    text-align: center; /* Center text horizontally */
-    display: flex; /* Center content vertically */
-    flex-direction: column;
-    justify-content: top;
-    align-items: center;
+    background-size: cover; 
+    height: 75vh; 
+    color: #fff; 
+} */
+.hero-image {
+    max-width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
- .hero img {
-    position: absolute;
-    width: 100%; 
-    height: auto; 
-    object-fit: cover; 
-}
+
+
 
 .hero-content {
     position: absolute;
-    margin-top: 50%;
-    margin-left: 45%;
-    transform: translate(-50%, -50%); 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    color: #fff;  
-} 
+    color: #fff;
+    width: 100%;
+    max-width: 600px; 
+    padding: 20px; 
+    /* box-sizing: border-box;  */
+}
+
+.hero-image {
+    object-fit: cover;
+}
 
 
 
@@ -40,19 +47,16 @@
 }
 
 /* gallery */
-.photo-slider img {
-    max-width: 100%;
-    max-height: 100%;
+ .photo-slider img {
+   
     object-fit: cover;
-}
+} 
 
 .carousel-image {
     width: 100%;
     /* height: 550px; */
     height: 75vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
 }
 
 /* welding page */
@@ -105,6 +109,12 @@ object-fit: contain;
     justify-content: center;
     align-content: center;
 }
-.btn { 
-    
+#heading1 {
+    background: rgb(214, 214, 193)11, 211, 192);
+}
+.heading1 h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    font-family: "exo", sans-serif;
 }
