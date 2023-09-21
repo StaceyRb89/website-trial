@@ -26,9 +26,6 @@
     z-index: 1;
 }
 
-
-
-
 .hero-content {
     position: absolute;
     top: 50%;
@@ -112,9 +109,6 @@ object-fit: contain;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-    /* display: flex;
-    justify-content: center;
-    align-content: center; */
 }
 #heading1 {
     background: rgb(230, 230, 208);
