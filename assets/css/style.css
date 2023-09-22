@@ -2,7 +2,11 @@
     padding: 0;
     margin: 0;
 }
-
+body {
+    min-height: 150vh; /* Ensure the body takes up at least the full viewport height */
+    display: flex;
+    flex-direction: column;
+}
 .navbar {
     position: relative;
     z-index: 2;
@@ -123,3 +127,5 @@ h5 {
 }
 
 
+
+  
