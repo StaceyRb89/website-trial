@@ -28,8 +28,8 @@
     text-align: center;
     color: #fff;
     width: 100%;
-    max-width: 600px; 
-    padding: 20px; 
+    max-width: 600px;
+    padding: 20px;
     z-index: 2;
     /* box-sizing: border-box;  */
 }
@@ -43,10 +43,10 @@
 }
 
 /* gallery */
- .photo-slider img {
-   
+.photo-slider img {
+
     object-fit: cover;
-} 
+}
 
 .carousel-image {
     width: 100%;
@@ -73,4 +73,19 @@
     height: 100%;
     object-fit: cover;
 }
+
 /* book tickets */
+
+/* booking form */
+.center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #a19895;
+}
