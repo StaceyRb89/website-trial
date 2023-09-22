@@ -93,16 +93,15 @@ button[type="submit"] {
 }
 /* footer */
 .footer-outline {
-    margin: 0 auto;
-    padding: 0;
-    background-color: #21201f;
+    /* background-color: #21201f; */
     color: #fafafa;
 }
 
-#footer-details {
-    padding: 20px;
+ #footer-details {
+    padding: 10px;
     justify-content: center;
-    position: absolute;
+ }
+    /* position: absolute;
     bottom: 0;
     width: 100%;
     max-height: 160px; 
@@ -112,7 +111,7 @@ button[type="submit"] {
 }
 h5 {
     margin: 0;
-}
+} */ */ */
 .logos li a i {
     width: 32px;
     height: 32px;
@@ -124,4 +123,5 @@ h5 {
     color: #fafafa;
     background: #8f8f8f;
 }
+
 
